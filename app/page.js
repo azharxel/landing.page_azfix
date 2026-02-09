@@ -140,6 +140,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer id="kontak" className="scroll-nt-24 text-center text-sm text-gray-400 pb-10">
         © {new Date().getFullYear()} AZFIX
+        <p className="mt-1">Built with Next.js & Tailwind • Developed by Azhar</p>
       </footer>
 
     </main>

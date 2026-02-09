@@ -136,9 +136,20 @@ export default function Home() {
         </div>
       </section>
 
+      {/*Kontak Dev*/}
+      <section id="kontak" className="text-center scroll-mt-24 py-10 px-6">
+        <a
+          href="https://wa.me/6285608936194"
+          target="_blank"
+          className="inline-block mt-10 bg-black text-white px-8 py-3 rounded-full text-sm font-medium hover:opacity-80 transition"
+        >
+          KONTAK DEV 
+        </a>
+      </section>
+
 
       {/* FOOTER */}
-      <footer id="kontak" className="scroll-nt-24 text-center text-sm text-gray-400 pb-10">
+      <footer className="scroll-nt-24 text-center text-sm text-gray-400 pb-10">
         © {new Date().getFullYear()} AZFIX
         <p className="mt-1">Built with Next.js & Tailwind • Developed by Azhar</p>
       </footer>
